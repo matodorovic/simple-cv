@@ -90,3 +90,22 @@ h2 {
     margin: 1rem;
     padding: 1rem;
 }
+
+.education {
+    margin: 10px;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+}
+
+.work {
+    margin: 10px;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+}
+
+.knowledge {
+    margin: 10px;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+}
+
+ul {
+    padding-bottom: 2rem;
+}
