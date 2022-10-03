@@ -1,83 +1,85 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @keyframes fly_down {
-  from {
-    margin-top: -20vh;
-  }
-  to {
-    margin-top: 0vh;
-  }
+    from {
+        margin-top: -20vh;
+    }
+
+    to {
+        margin-top: 0vh;
+    }
 }
 
 h1 {
-  font-size: 6vh;
-  width: auto;
-  text-align: center;
-  margin: 0 auto;
-  animation: fly_down 2s;
+    font-size: 6vh;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    animation: fly_down 2s;
 }
 
 header {
-  padding: 2rem;
-  background-color: rgb(205, 164, 205);
-  text-align: center;
-  margin: 10px;
-  box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+    padding: 2rem;
+    background-color: rgb(205, 164, 205);
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
 }
 
 .info {
     margin: 10px;
     background-color: rgb(238, 213, 238);
-  display: flex;
-  flex-direction:row-reverse;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
 
 }
 
 h2 {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 @keyframes photo {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .own-picture {
-  height: 25vh;
-  width: fit-content;
-  padding: 2vh;
-  margin-right: 3vw;
-  text-align: center;
-  border-radius: 50%;
-  animation: photo;
-  animation-duration: 6s;
+    height: 25vh;
+    width: fit-content;
+    padding: 2vh;
+    margin-right: 3vw;
+    text-align: center;
+    border-radius: 50%;
+    animation: photo;
+    animation-duration: 6s;
 }
 
 .author {
-  text-align: center;
-  margin: 10px;
-  padding: 2rem;
-  background-color: rgb(205, 164, 205);
-  box-sizing: border-box;
-  box-shadow: 10%;
-  box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+    text-align: center;
+    margin: 10px;
+    padding: 2rem;
+    background-color: rgb(205, 164, 205);
+    box-sizing: border-box;
+    box-shadow: 10%;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
 }
 
 .contact-me {
     background-color: rgb(238, 213, 238);
     margin: 10px;
-      text-align: center;
-  box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+    text-align: center;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
 }
 
 #contact {
