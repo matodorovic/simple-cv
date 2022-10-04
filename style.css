@@ -67,28 +67,16 @@ h2 {
 
 .author {
     text-align: center;
-    margin: 10px;
-    padding: 2rem;
-    background-color: rgb(205, 164, 205);
-    box-sizing: border-box;
-    box-shadow: 10%;
-    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+    margin-top: 20px;
 }
 
 .contact-me {
     background-color: rgb(238, 213, 238);
+    min-height: 20vh;
     margin: 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     text-align: center;
     box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
-}
-
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1rem;
-    padding: 1rem;
 }
 
 .education {
@@ -108,4 +96,54 @@ h2 {
 
 ul {
     padding-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    padding: 2rem;
+    background-color: rgb(205, 164, 205);
+    box-sizing: border-box;
+    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+}
+
+#github {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:rgb(91, 44, 91);
+}
+
+@media screen and (max-width: 600px) {
+    .social-media {
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        list-style-type: none;
+        padding: 1rem;
+        text-decoration: none;
+        color:rgb(91, 44, 91);
+    }
+}
+
+@media screen and (min-width: 600px) {
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1rem;
+    text-decoration: none;
+    color:rgb(91, 44, 91);
+}
+}
+
+.fa-brands {
+    color:rgb(91, 44, 91);
+}
+
+.fa-solid {
+    color:rgb(91, 44, 91);
 }
