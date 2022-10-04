@@ -28,16 +28,6 @@ header {
     box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
 }
 
-.info {
-    margin: 10px;
-    background-color: rgb(238, 213, 238);
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
-
-}
 
 h2 {
     text-align: center;
@@ -54,15 +44,51 @@ h2 {
     }
 }
 
-.own-picture {
-    height: 25vh;
-    width: fit-content;
-    padding: 2vh;
-    margin-right: 3vw;
-    text-align: center;
-    border-radius: 50%;
-    animation: photo;
-    animation-duration: 6s;
+@media screen and (max-width: 600px) {
+    .own-picture {
+        height: 25vh;
+        width: 22vh;
+        padding: 2vh;
+        margin-right: 3vw;
+        text-align: center;
+        border-radius: 50%;
+        animation: photo;
+        animation-duration: 6s;
+    }
+
+    .info {
+        margin: 10px;
+        background-color: rgb(238, 213, 238);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .own-picture {
+        height: 25vh;
+        width: fit-content;
+        padding: 2vh;
+        margin-right: 3vw;
+        text-align: center;
+        border-radius: 50%;
+        animation: photo;
+        animation-duration: 6s;
+    }
+
+    .info {
+        margin: 10px;
+        background-color: rgb(238, 213, 238);
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0.2rem 0.4rem rgb(161, 112, 120);
+    }
 }
 
 .author {
@@ -72,7 +98,7 @@ h2 {
 
 .contact-me {
     background-color: rgb(238, 213, 238);
-    min-height: 20vh;
+    min-height: 15vh;
     margin: 10px;
     padding: 0.5rem 1rem 0.5rem 1rem;
     text-align: center;
@@ -108,42 +134,45 @@ footer {
 }
 
 #github {
-    margin-bottom: 1rem;
     text-decoration: none;
-    color:rgb(91, 44, 91);
+    color: rgb(91, 44, 91);
 }
 
 @media screen and (max-width: 600px) {
     .social-media {
         min-height: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 2rem;
-        padding-bottom: 2rem;
         list-style-type: none;
         padding: 1rem;
         text-decoration: none;
-        color:rgb(91, 44, 91);
+        color: rgb(91, 44, 91);
+    }
+
+    .social-media li {
+        margin-bottom: 1rem;
     }
 }
 
 @media screen and (min-width: 600px) {
-.social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 1rem;
-    text-decoration: none;
-    color:rgb(91, 44, 91);
-}
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding: 1rem;
+        text-decoration: none;
+        color: rgb(91, 44, 91);
+    }
 }
 
 .fa-brands {
-    color:rgb(91, 44, 91);
+    color: rgb(91, 44, 91);
 }
 
 .fa-solid {
-    color:rgb(91, 44, 91);
+    color: rgb(91, 44, 91);
+}
+
+.email {
+    text-decoration: none;
+    color: rgb(91, 44, 91);
 }
