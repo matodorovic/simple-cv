@@ -44,18 +44,18 @@ h2 {
     }
 }
 
-@media screen and (max-width: 600px) {
-    .own-picture {
-        height: 25vh;
-        width: 22vh;
-        padding: 2vh;
-        margin-right: 3vw;
-        text-align: center;
-        border-radius: 50%;
-        animation: photo;
-        animation-duration: 6s;
-    }
+.own-picture {
+    height: 25vh;
+    width: 22vh;
+    padding: 2vh;
+    margin-right: 3vw;
+    text-align: center;
+    border-radius: 50%;
+    animation: photo;
+    animation-duration: 6s;
+}
 
+@media screen and (max-width: 600px) {
     .info {
         margin: 10px;
         background-color: rgb(238, 213, 238);
@@ -69,17 +69,6 @@ h2 {
 }
 
 @media screen and (min-width: 600px) {
-    .own-picture {
-        height: 25vh;
-        width: fit-content;
-        padding: 2vh;
-        margin-right: 3vw;
-        text-align: center;
-        border-radius: 50%;
-        animation: photo;
-        animation-duration: 6s;
-    }
-
     .info {
         margin: 10px;
         background-color: rgb(238, 213, 238);
